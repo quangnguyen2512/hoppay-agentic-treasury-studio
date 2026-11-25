@@ -1,0 +1,27 @@
+# Python & test caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+uv.lock
+dist/
+build/
+*.egg-info/
+
+# Environment & local databases
+.env
+.env*
+*.db
+*.db-shm
+*.db-wal
+
+# Local Knowledge Graph & IDE metadata
+.ua/
+.understand-anything/
+
+# Private grant application notes & upload bundles (kept local only)
+GRANT_APPLICATION_READY.md
+SOLANA_NEW_SESSION_PACKET.md
+OPEN_GRANT_SUBMIT.ps1
+GOOGLE_DRIVE_UPLOAD_BUNDLE/
+*.zip

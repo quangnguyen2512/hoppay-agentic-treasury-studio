@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" width="1200" height="440">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070b12"/>
+      <stop offset="100%" stop-color="#0e1628"/>
+    </linearGradient>
+    <linearGradient id="solGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#14f195"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="440" rx="18" fill="url(#bgGrad)" stroke="#1e2d4a" stroke-width="2"/>
+
+  <!-- Header -->
+  <text x="44" y="52" fill="#e6edf7" font-family="Inter, Segoe UI, sans-serif" font-size="22" font-weight="800">HopPay Agentic Treasury Studio — 4-Stage Deterministic Pipeline</text>
+  <text x="44" y="78" fill="#8b9bb8" font-family="Consolas, monospace" font-size="13">Non-Custodial AI CFO • Exact Decimal PolicyGuard • 3.0x Anomaly Circuit Breaker • Solana Token-2022 USDG &amp; SPL USDC</text>
+  <rect x="935" y="34" width="220" height="32" rx="16" fill="#0d281f" stroke="#14f195" stroke-width="1.2"/>
+  <text x="1045" y="55" text-anchor="middle" fill="#14f195" font-family="Consolas, monospace" font-size="12" font-weight="700">PRIVATE KEYS: NEVER TOUCHED</text>
+
+  <!-- Stage 1 -->
+  <rect x="44" y="118" width="248" height="220" rx="14" fill="#111a2e" stroke="#38bdf8" stroke-width="1.6"/>
+  <text x="64" y="148" fill="#38bdf8" font-family="Consolas, monospace" font-size="12" font-weight="700">STAGE 01 • INTENT &amp; DECIMAL</text>
+  <text x="64" y="174" fill="#e6edf7" font-family="Inter, Segoe UI, sans-serif" font-size="16" font-weight="700">AI CFO Intent Normalizer</text>
+  <text x="64" y="204" fill="#9fb0cc" font-family="Inter, Segoe UI, sans-serif" font-size="12.5">• Parses NL prompts + CSV rows</text>
+  <text x="64" y="228" fill="#9fb0cc" font-family="Inter, Segoe UI, sans-serif" font-size="12.5">• Resolves @handle registry</text>
+  <text x="64" y="252" fill="#9fb0cc" font-family="Inter, Segoe UI, sans-serif" font-size="12.5">• Merges split-invoice rows</text>
+  <text x="64" y="276" fill="#9fb0cc" font-family="Inter, Segoe UI, sans-serif" font-size="12.5">• Exact 6/9-dec integer math</text>
+  <rect x="64" y="296" width="208" height="26" rx="6" fill="#080d18" stroke="#1e2d4a"/>
+  <text x="168" y="313" text-anchor="middle" fill="#38bdf8" font-family="Consolas, monospace" font-size="11">$0.000000 Rounding Drift</text>
+
+  <!-- Arrow 1->2 -->
+  <line x1="292" y1="228" x2="332" y2="228" stroke="url(#solGrad)" stroke-width="2.5"/>
+  <polygon points="332,228 322,222 322,234" fill="#14f195"/>
+
+  <!-- Stage 2 -->
+  <rect x="336" y="118" width="268" height="220" rx="14" fill="#111a2e" stroke="#f59e0b" stroke-width="1.6"/>
+  <text x="356" y="148" fill="#fbbf24" font-family="Consolas, monospace" font-size="12" font-weight="700">STAGE 02 • POLICY &amp; ANOMALY</text>
+  <text x="356" y="174" fill="#e6edf7" font-family="Inter, Segoe UI, sans-serif" font-size="16" font-weight="700">Deterministic PolicyGuard</text>
+  <text x="356" y="204" fill="#9fb0cc" font-family="Inter, Segoe UI, sans-serif" font-size="12.5">• Consolidated spend caps</text>
+  <text x="356" y="228" fill="#9fb0cc" font-family="Inter, Segoe UI, sans-serif" font-size="12.5">• Allowlist &amp; Sysvar denylist</text>
+  <text x="356" y="252" fill="#f43f5e" font-family="Inter, Segoe UI, sans-serif" font-size="12.5" font-weight="600">• &gt;=3.0x Velocity Spike Halt</text>
+  <text x="356" y="276" fill="#f43f5e" font-family="Inter, Segoe UI, sans-serif" font-size="12.5" font-weight="600">• Wallet-Swap Circuit Breaker</text>
+  <rect x="356" y="296" width="228" height="26" rx="6" fill="#291019" stroke="#f43f5e"/>
+  <text x="470" y="313" text-anchor="middle" fill="#fda4af" font-family="Consolas, monospace" font-size="11">ANOMALY_HALT / HITL_GATE</text>
+
+  <!-- Arrow 2->3 -->
+  <line x1="604" y1="228" x2="644" y2="228" stroke="url(#solGrad)" stroke-width="2.5"/>
+  <polygon points="644,228 634,222 634,234" fill="#14f195"/>
+
+  <!-- Stage 3 -->
+  <rect x="648" y="118" width="248" height="220" rx="14" fill="#111a2e" stroke="#14f195" stroke-width="1.6"/>
+  <text x="668" y="148" fill="#14f195" font-family="Consolas, monospace" font-size="12" font-weight="700">STAGE 03 • MULTI-HOP ROUTER</text>
+  <text x="668" y="174" fill="#e6edf7" font-family="Inter, Segoe UI, sans-serif" font-size="16" font-weight="700">Dispersion &amp; Chunking</text>
+  <text x="668" y="204" fill="#9fb0cc" font-family="Inter, Segoe UI, sans-serif" font-size="12.5">• Auto-chunks &lt;=20 rcpts/route</text>
+  <text x="668" y="228" fill="#9fb0cc" font-family="Inter, Segoe UI, sans-serif" font-size="12.5">• 3–10 relay hops + waitSeconds</text>
+  <text x="668" y="252" fill="#9fb0cc" font-family="Inter, Segoe UI, sans-serif" font-size="12.5">• MH_017 SOL rent-dust guard</text>
+  <text x="668" y="276" fill="#9fb0cc" font-family="Inter, Segoe UI, sans-serif" font-size="12.5">• MH_018/019 topology checks</text>
+  <rect x="668" y="296" width="208" height="26" rx="6" fill="#080d18" stroke="#1e2d4a"/>
+  <text x="772" y="313" text-anchor="middle" fill="#14f195" font-family="Consolas, monospace" font-size="11">USDG (Token-2022) + USDC</text>
+
+  <!-- Arrow 3->4 -->
+  <line x1="896" y1="228" x2="936" y2="228" stroke="url(#solGrad)" stroke-width="2.5"/>
+  <polygon points="936,228 926,222 926,234" fill="#14f195"/>
+
+  <!-- Stage 4 -->
+  <rect x="940" y="118" width="216" height="220" rx="14" fill="#111a2e" stroke="#a78bfa" stroke-width="1.6"/>
+  <text x="958" y="148" fill="#c4b5fd" font-family="Consolas, monospace" font-size="12" font-weight="700">STAGE 04 • SVM PROOF</text>
+  <text x="958" y="174" fill="#e6edf7" font-family="Inter, Segoe UI, sans-serif" font-size="16" font-weight="700">Audit &amp; Devnet RPC</text>
+  <text x="958" y="204" fill="#9fb0cc" font-family="Inter, Segoe UI, sans-serif" font-size="12.5">• Memo v2 + TransferChecked</text>
+  <text x="958" y="228" fill="#9fb0cc" font-family="Inter, Segoe UI, sans-serif" font-size="12.5">• Live simulateTransaction</text>
+  <text x="958" y="252" fill="#9fb0cc" font-family="Inter, Segoe UI, sans-serif" font-size="12.5">• SHA-256 hash-chain receipt</text>
+  <text x="958" y="276" fill="#9fb0cc" font-family="Inter, Segoe UI, sans-serif" font-size="12.5">• Phantom / CLI Sign-ready</text>
+  <rect x="958" y="296" width="180" height="26" rx="6" fill="#080d18" stroke="#1e2d4a"/>
+  <text x="1048" y="313" text-anchor="middle" fill="#c4b5fd" font-family="Consolas, monospace" font-size="11">api.devnet.solana.com</text>
+
+  <!-- Bottom Audit Chain Bar -->
+  <rect x="44" y="362" width="1112" height="48" rx="10" fill="#0a101d" stroke="#1e2d4a"/>
+  <text x="64" y="391" fill="#14f195" font-family="Consolas, monospace" font-size="12.5" font-weight="700">IMMUTABLE SHA-256 AUDIT CHAIN:</text>
+  <text x="315" y="391" fill="#9fb0cc" font-family="Consolas, monospace" font-size="12">genesis(0000..00) ──► PLAN_EVALUATED ──► HITL_APPROVED ──► DEVNET_SIMULATED (MemoSq4gq... + TokenzQd...)</text>
+</svg>
