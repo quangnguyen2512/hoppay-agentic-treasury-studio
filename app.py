@@ -200,6 +200,12 @@ def api_export_plan_pack(plan_id: str) -> JSONResponse:
 
 
 if __name__ == "__main__":
+    import os
     import uvicorn
 
-    uvicorn.run("app:app", host="127.0.0.1", port=8090, reload=False)
+    uvicorn.run(
+        "app:app",
+        host=os.environ.get("HOST", "0.0.0.0"),
+        port=int(os.environ.get("PORT", "8790")),
+        reload=False,
+    )

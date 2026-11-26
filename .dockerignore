@@ -1,0 +1,12 @@
+.git
+.venv
+__pycache__
+*.py[cod]
+.pytest_cache
+.ua
+.understand-anything
+GOOGLE_DRIVE_UPLOAD_BUNDLE
+*.zip
+GRANT_APPLICATION_READY.md
+SOLANA_NEW_SESSION_PACKET.md
+OPEN_GRANT_SUBMIT.ps1
